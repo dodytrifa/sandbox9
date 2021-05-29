@@ -1,3 +1,53 @@
-.material-icons.orange600 { 
-  color: #FB8C00; 
+
+.download-btn {
+  background-color: #FB8C00;
+  width: 50px;
+  height: auto;
+  color: white;
+  border-radius: 10%;
+  margin: 15px 15px;
+  display: flex;
+  align-items: center;
 }
+
+h3 {
+  margin: 5px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main-table {
+  margin: 20px 10px;
+  background-color: ghostwhite;
+  border-radius: 10px;
+}
+
+.search-box {
+  margin: 20px 0;
+  background-color: ghostwhite;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+
+}
+
+.search-btn {
+  background-color: #FB8C00;
+  vertical-align: middle;
+  color: white;
+  height: auto;
+  border: none;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+}
+
+th {
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
