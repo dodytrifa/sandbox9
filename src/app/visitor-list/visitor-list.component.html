@@ -1,4 +1,6 @@
-<p>visitor-list works!</p>
+<p>Admin CV. MACAN KEMBAR</p>
+<mat-icon aria-hidden="false" class="material-icons orange600" aria-label="Example home icon">home</mat-icon>
+
 <div>
   <div >
     <h4>Search</h4>
@@ -6,41 +8,119 @@
       <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
       <label for="vehicle1"> Created Time Mode</label><br>
       <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-      <label for="vehicle2"> Transaction Time Mode</label><br>
-      <input type="submit" value="Submit">
+      <label for="vehicle2"> Transaction Time Mode</label><br><br>
+      <input type="text"  placeholder="Voucher ID"><br><br>
+      <input type="text"  placeholder="Remark"><br><br>
+      <input type="submit" value="Search...">
     </form>
   </div>
-  <h1> TASKS </h1>
-  <p>
-    This task requires you to create an application to be used in a hospital. A "Customer Queue Management" for walk-in customer.
-
-    -- FRONTEND - ANGULAR --
-    This angular app includes a page to input visitors' details and a page to show a list of visitors' details.
-    All 3 pages are still blanks thus you need to design and code from ground-up.
-    <br>
-    Some Example For Visitor Details :
-    <br>
-    Print Queue (You can Make A Pop Up / HTML Print Using Simple Database)
-    <br>
-    <img src="./assets/img/barcodelist.PNG" alt="logo" style="width:500px; height:500px;">
-    <br>
-    Input Visitor
-    <br>
-    <img src="./assets/img/inputdata.PNG" alt="logo" style="width:700px; height:500px;">
-    <br>
-    Visitor List
-    <br>
-    <img src="./assets/img/visitorlist.PNG" alt="logo" style="width:700px; height:500px;">
-    <br>
-    -- API --
-    <br>
-    You Can Install API using Node Express and create localdatabase for gathering the data.
-    <br>
-    -- Database --
-    <br>
-    You Must Create Database Using MongoDb
-    <br>
-    Happy Creating!
-  </p>
+  <div>
+    <table style="width:80%">
+      <tr>
+        <th>Created Time</th>
+        <th>Site</th> 
+        <th>Order</th>
+        <th>Product ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td>GUDANG</td>
+        <td></td>
+        <td>PRODUK-PL0071-S-ABU TUA</td>
+        <td>SWEATER OBLONG JEMPER NASA UNISEX matt COTTON fleece Premium TERMURAH TERLARIS</td>
+        <td>SWEATER OBLONG JEMPER NASA UNISEX matt COTTON fleece Premium TERMURAH TERLARIS</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>GUDANG</td>
+        <td></td>
+        <td>PRODUK-PL0019-L-WARNA LAIN 1</td>
+        <td>SWEATHER HOODIE JEMPER SOMETHING UNISEX matt COTTON fleece Premium TERMURAH TERLARIS</td>
+        <td>desc</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Gudang</td>
+        <td></td>
+        <td>PRODUK-PL0019-L-WARNA LAIN 1</td>
+        <td>name</td>
+        <td>desc</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Gudang</td>
+        <td></td>
+        <td>id</td>
+        <td>name</td>
+        <td>desc</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Gudang</td>
+        <td></td>
+        <td>id</td>
+        <td>name</td>
+        <td>desc</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Gudang</td>
+        <td></td>
+        <td>id</td>
+        <td>name</td>
+        <td>desc</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Gudang</td>
+        <td></td>
+        <td>id</td>
+        <td>name</td>
+        <td>desc</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Gudang</td>
+        <td></td>
+        <td></td>
+        <td>name</td>
+        <td>desc</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Gudang</td>
+        <td></td>
+        <td>id</td>
+        <td>name</td>
+        <td>desc</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Gudang</td>
+        <td></td>
+        <td>id</td>
+        <td>name</td>
+        <td>desc</td>
+        <td></td>
+      </tr>
+    </table>
+    <mat-paginator 
+      [length]="8905"
+      [pageSize]="10"
+      [pageSizeOptions]="[5, 10, 25, 100]">
+    </mat-paginator>
+  </div>
 </div>
 
